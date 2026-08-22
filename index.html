@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Sagarika Dangol</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">Sagarika<span class="accent">.</span></a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="btn btn-sm">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="container hero-content">
+      <p class="hero-greeting">👋 Hello, I'm</p>
+      <h1 class="hero-name">Sagarika Dangol</h1>
+      <p class="hero-title">Accounting & Financial Management Assistant</p>
+      <p class="hero-description">
+        Highly motivated professional with excellent interpersonal and communication skills, possesses ability to manage
+        multiple projects and responsibilities while continuing to maintain a reputation for highly quality, robust
+        work.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+        <a href="#experience" class="btn btn-outline">View My Work</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span class="scroll-arrow"></span>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-image">
+          <div class="about-image-placeholder">
+            <img src="assets/img/my pic.png" width="250" alt="Sagarika Dangol">
+            <!-- <span>Your Photo</span> -->
+          </div>
+        </div>
+        <div class="about-text">
+          <h3>A passionate assistant in accounting and financial management</h3>
+          <p>
+            I'm a dedicated accounting and financial management assistant with 5+ years of experience in providing comprehensive financial solutions.
+            I specialize in creating robust, efficient, and compliant financial strategies using modern tools and methodologies.
+          </p>
+          <p>
+            When I'm not working, you'll find me exploring new technologies, contributing to open-source
+            projects, or enjoying a good book. I believe in continuous learning and strive to write
+            clean, maintainable code.
+          </p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number" data-count="5">0</span><span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="30">0</span><span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" data-count="15">0</span><span class="stat-label">Happy Clients</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-subtitle">Technologies and tools I work with</p>
+
+      <div class="skills-categories">
+        <!-- Frontend -->
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <span class="skill-icon">🎨</span> Financial Tools
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag" data-level="95">Tally</span>
+            <span class="skill-tag" data-level="90">Swastik Nepal</span>
+            <span class="skill-tag" data-level="90">Export</span>
+            <span class="skill-tag" data-level="85">Finpro</span>
+          </div>
+        </div>
+        <!-- Backend -->
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <span class="skill-icon">⚙️</span> Technical Skills
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag" data-level="85">Ms Word</span>
+            <span class="skill-tag" data-level="80">Ms Excel</span>
+            <span class="skill-tag" data-level="75">MS Access</span>
+            <span class="skill-tag" data-level="70">Ms PowerPoint</span>
+          </div>
+        </div>
+        <!-- Database & Tools -->
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <span class="skill-icon">🗄️</span> Non-Technical Skills
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag" data-level="80">Barista </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EXPERIENCE ===================== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="section-title">Work Experience</h2>
+      <p class="section-subtitle">My professional journey</p>
+
+      <div class="timeline">
+        <!-- Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Senior Frontend Developer</h3>
+                <p class="timeline-company">Tech Solutions Inc.</p>
+              </div>
+              <span class="timeline-date">Jan 2023 — Present</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Led the migration of a legacy jQuery codebase to React, improving page load times by 40%.</li>
+              <li>Mentored a team of 4 junior developers and conducted weekly code reviews.</li>
+              <li>Implemented a design system that reduced UI inconsistencies by 60%.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>React</span><span>TypeScript</span><span>Design Systems</span>
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Full-Stack Developer</h3>
+                <p class="timeline-company">Digital Agency Co.</p>
+              </div>
+              <span class="timeline-date">Jun 2021 — Dec 2022</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Built and maintained 10+ client-facing web applications using React and Node.js.</li>
+              <li>Integrated third-party APIs including Stripe, Twilio, and SendGrid.</li>
+              <li>Optimized database queries, reducing average response times by 35%.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Node.js</span><span>React</span><span>MongoDB</span>
+            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Junior Web Developer</h3>
+                <p class="timeline-company">StartUp Labs</p>
+              </div>
+              <span class="timeline-date">Aug 2019 — May 2021</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Developed responsive landing pages and marketing sites for early-stage startups.</li>
+              <li>Collaborated with designers to translate Figma mockups into pixel-perfect UIs.</li>
+              <li>Wrote unit and integration tests achieving 85% code coverage.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>HTML/CSS</span><span>JavaScript</span><span>Vue.js</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION ===================== -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <p class="section-subtitle">My academic background</p>
+
+      <div class="education-grid">
+        <!-- Card 1 -->
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
+          <div class="edu-info">
+            <h3 class="edu-degree">Bachelor in Business Studies(BBS)</h3>
+            <p class="edu-school">Tribhuwan University</p>
+            <span class="edu-year">2016 — 2020</span>
+            <p class="edu-description">
+              Graduated with honors. Focused on software engineering, algorithms, and human-computer interaction.
+              Senior thesis on progressive web applications.
+            </p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="edu-card">
+          <div class="edu-icon">📜</div>
+          <div class="edu-info">
+            <h3 class="edu-degree">Higher Secondary Education Board</h3>
+            <p class="edu-school">Shree Nepal </p>
+            <span class="edu-year">2019</span>
+            <p class="edu-description">
+              Intensive 12-week program covering modern JavaScript, React, Node.js, and database design.
+              Built 5 full-stack projects.
+            </p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="edu-card">
+          <div class="edu-icon">🏅</div>
+          <div class="edu-info">
+            <h3 class="edu-degree">School Leaving Certificate</h3>
+            <p class="edu-school">Lotus Academy</p>
+            <span class="edu-year">2011</span>
+            <p class="edu-description">
+              Professional certification demonstrating expertise in designing distributed systems on AWS.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section" id="contact">
+    <div class="container contact-container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-subtitle">Have a project in mind? Let's work together.</p>
+      <div class="contact-grid">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+              required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">📧</span>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:sagarikadangol@gmail.com	">sagarikadangol@gmail.com </a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📍</span>
+            <div>
+              <h4>Location</h4>
+              <p>Jeetpursimara Sub-Metropolitian City 2, Bara, Nepal</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">🔗</span>
+            <div>
+              <h4>Social</h4>
+              <div class="social-links">
+                <a href="#" aria-label="GitHub">GitHub</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <!-- CTA Banner -->
+    <div class="footer-cta">
+      <div class="container footer-cta-inner">
+        <div class="footer-cta-text">
+          <h3>Let's build something amazing together</h3>
+          <p>I'm currently available for freelance work and full-time positions.</p>
+        </div>
+        <a href="#contact" class="btn btn-primary btn-glow">Hire Me →</a>
+      </div>
+    </div>
+
+    <!-- Main Footer -->
+    <div class="footer-main">
+      <div class="container footer-grid">
+        <!-- Col 1: Brand -->
+        <div class="footer-col footer-brand-col">
+          <a href="#" class="logo footer-logo">Portfolio<span class="accent">.</span></a>
+          <p class="footer-tagline">Crafting digital experiences with clean code &amp; creative design.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="GitHub" class="social-circle">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 .5C5.37.5 0 5.78 0 12.29c0 5.21 3.43 9.64 8.2 11.21.6.11.82-.26.82-.57v-2.01c-3.34.72-4.04-1.61-4.04-1.61-.55-1.37-1.33-1.74-1.33-1.74-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6.02 0c2.3-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .31.22.69.82.57C20.57 21.93 24 17.5 24 12.29 24 5.78 18.63.5 12 .5z" />
+              </svg>
+            </a>
+            <a href="#" aria-label="LinkedIn" class="social-circle">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+              </svg>
+            </a>
+            <a href="#" aria-label="Twitter / X" class="social-circle">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.4l-5.8-7.58-6.63 7.58H.48l8.6-9.83L0 1.15h7.59l5.24 6.93 6.07-6.93zm-1.29 19.5h2.04L6.48 3.24H4.3l13.31 17.41z" />
+              </svg>
+            </a>
+            <a href="#" aria-label="Dribbble" class="social-circle">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm7.94 5.54a10.2 10.2 0 0 1 2.3 6.38c-.34-.07-3.7-.75-7.1-.33-.07-.18-.15-.35-.23-.53-.22-.5-.46-1-.71-1.49 3.78-1.54 5.49-3.76 5.74-4.03zM12 1.77c2.76 0 5.28 1.07 7.17 2.82-.21.24-1.74 2.32-5.38 3.7A67.67 67.67 0 0 0 9.26 1.98 10.28 10.28 0 0 1 12 1.77zM7.35 2.7c.41.66 2.25 3.64 4.6 6.18-5.81 1.55-10.93 1.53-11.5 1.52A10.27 10.27 0 0 1 7.35 2.7zM1.76 12.01v-.39c.55.01 6.6.08 12.79-1.76.36.7.7 1.41 1.01 2.13l-.44.13c-6.42 2.07-9.83 7.73-10.1 8.18A10.2 10.2 0 0 1 1.76 12zm4.68 8.55c.18-.31 2.72-5.37 9.63-7.84.03-.01.05-.01.08-.02a44.16 44.16 0 0 1 2.56 9.12A10.23 10.23 0 0 1 12 22.23c-2.14 0-4.12-.66-5.76-1.78zm9.46.84a43.35 43.35 0 0 0-2.35-8.56c3.16-.5 5.93.32 6.29.43a10.22 10.22 0 0 1-3.94 8.13z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Newsletter -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Stay Updated</h4>
+          <p class="footer-newsletter-text">Subscribe to get my latest articles and project updates.</p>
+          <form class="footer-newsletter" id="newsletterForm">
+            <input type="email" placeholder="Your email" required aria-label="Email for newsletter" />
+            <button type="submit" aria-label="Subscribe">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 Sagarika Dangol. Built with ☕ &amp; code.</p>
+        <a href="#hero" class="back-to-top" aria-label="Back to top">
+          <span class="btt-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+              stroke-linejoin="round">
+              <polyline points="18 15 12 9 6 15" />
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
