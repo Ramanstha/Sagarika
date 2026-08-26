@@ -4,6 +4,25 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
+  // ---- Typewriter on hero title (looping) ----
+  const typedTitle = document.getElementById("typed-title");
+  if (typedTitle) {
+    const text = "Accounting & Financial Management Assistant";
+    let i = 0, deleting = false;
+    typedTitle.classList.add("typing");
+    const loop = () => {
+      if (!deleting) {
+        typedTitle.textContent = text.slice(0, ++i);
+        if (i === text.length) return setTimeout(() => { deleting = true; loop(); }, 1800);
+      } else {
+        typedTitle.textContent = text.slice(0, --i);
+        if (i === 0) return setTimeout(() => { deleting = false; loop(); }, 500);
+      }
+      setTimeout(loop, deleting ? 25 : 60);
+    };
+    setTimeout(loop, 1300);
+  }
+
   // ---- Floating particles in hero ----
   const hero = document.getElementById("hero");
   if (hero) {

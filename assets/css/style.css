@@ -860,14 +860,25 @@ ul  { list-style: none; }
 
 /* -- Typing cursor on hero title -- */
 .hero-title {
-  border-right: 2px solid var(--clr-accent);
-  animation: hero-fade-in .7s ease .6s forwards, cursor-blink .7s step-end infinite;
   display: inline-block;
   padding-right: 4px;
 }
+.hero-title::after {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 1em;
+  background: transparent;
+  margin-left: 2px;
+  vertical-align: text-bottom;
+}
+.hero-title.typing::after {
+  background: var(--clr-accent);
+  animation: cursor-blink .7s step-end infinite;
+}
 @keyframes cursor-blink {
-  0%,100% { border-color: var(--clr-accent); }
-  50%     { border-color: transparent; }
+  0%,100% { background: var(--clr-accent); }
+  50%     { background: transparent; }
 }
 
 /* -- Floating particles in hero -- */
