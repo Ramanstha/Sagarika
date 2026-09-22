@@ -946,6 +946,16 @@ textarea:focus-visible {
   font-size: .85rem;
   color: var(--clr-text-muted);
 }
+.footer-bottom-text {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px 20px;
+}
+.footer-credit {
+  color: var(--clr-text);
+  border-bottom: 1px solid transparent;
+}
 .back-to-top { text-decoration: none; }
 .btt-arrow {
   display: flex;
@@ -960,6 +970,7 @@ textarea:focus-visible {
 }
 .btt-arrow svg { width: 18px; height: 18px; }
 @media (hover: hover) {
+  .footer-credit:hover { color: var(--clr-accent); border-bottom-color: currentColor; }
   .back-to-top:hover .btt-arrow {
     background: var(--clr-primary);
     border-color: var(--clr-primary);
@@ -1378,6 +1389,7 @@ textarea:focus-visible {
   .footer-socials { justify-content: center; }
   .footer-heading::after { left: 50%; transform: translateX(-50%); }
   .footer-bottom-inner { flex-direction: column; gap: 16px; text-align: center; }
+  .footer-bottom-text { justify-content: center; gap: 2px 12px; }
 }
 
 /* ================================================
