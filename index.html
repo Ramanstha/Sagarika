@@ -3,8 +3,24 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sagarika Dangol</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description"
+    content="Sagarika Dangol — Accounting & Financial Management Assistant based in Bara, Nepal. 5+ years of experience in financial reporting, reconciliation and compliance." />
+  <meta name="theme-color" content="#0f0f1a" />
+  <meta name="color-scheme" content="dark" />
+
+  <title>Sagarika Dangol — Accounting &amp; Financial Management Assistant</title>
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Sagarika Dangol — Accounting &amp; Financial Management Assistant" />
+  <meta property="og:description"
+    content="Accounting and financial management professional with 5+ years of experience in reporting, reconciliation and compliance." />
+  <meta property="og:image" content="assets/img/my%20pic.png" />
+
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%237c5cfc'/><text x='50' y='70' font-size='58' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>S</text></svg>" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -12,306 +28,306 @@
 </head>
 
 <body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
   <!-- ===================== NAVBAR ===================== -->
   <header class="navbar" id="navbar">
     <div class="container nav-container">
-      <a href="#" class="logo">Sagarika<span class="accent">.</span></a>
-      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+      <a href="#hero" class="logo">Sagarika<span class="accent">.</span></a>
+
+      <button class="hamburger" id="hamburger" type="button" aria-label="Open navigation menu" aria-expanded="false"
+        aria-controls="navLinks">
         <span></span><span></span><span></span>
       </button>
-      <nav class="nav-links" id="navLinks">
+
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
         <a href="#education">Education</a>
-        <a href="#contact" class="btn btn-sm">Contact</a>
+        <a href="#contact" class="btn btn-sm btn-primary">Contact</a>
       </nav>
     </div>
   </header>
 
-  <!-- ===================== HERO ===================== -->
-  <section class="hero" id="hero">
-    <div class="container hero-content">
-      <p class="hero-greeting">👋 Hello, I'm</p>
-      <h1 class="hero-name">Sagarika Dangol</h1>
-      <p class="hero-title" id="typed-title"></p>
-      <p class="hero-description">
-        Highly motivated professional with excellent interpersonal and communication skills, possesses ability to manage
-        multiple projects and responsibilities while continuing to maintain a reputation for highly quality, robust
-        work.
-      </p>
-      <div class="hero-actions">
-        <a href="#contact" class="btn btn-primary">Get in Touch</a>
-        <a href="#experience" class="btn btn-outline">View My Work</a>
-      </div>
-    </div>
-    <div class="hero-scroll-hint" aria-hidden="true">
-      <span class="scroll-arrow"></span>
-    </div>
-  </section>
+  <!-- Backdrop behind the mobile drawer -->
+  <div class="nav-backdrop" id="navBackdrop" hidden></div>
 
-  <!-- ===================== ABOUT ===================== -->
-  <section class="section" id="about">
-    <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="about-grid">
-        <div class="about-image">
-          <div class="about-image-placeholder">
-            <img src="assets/img/my pic.png" width="250" alt="Sagarika Dangol">
-            <!-- <span>Your Photo</span> -->
-          </div>
-        </div>
-        <div class="about-text">
-          <h3>A passionate assistant in accounting and financial management</h3>
-          <p>
-            I'm a dedicated accounting and financial management assistant with 5+ years of experience in providing
-            comprehensive financial solutions.
-            I specialize in creating robust, efficient, and compliant financial strategies using modern tools and
-            methodologies.
-          </p>
-          <p>
-            When I'm not working, you'll find me exploring new technologies, contributing to open-source
-            projects, or enjoying a good book. I believe in continuous learning and strive to write
-            clean, maintainable code.
-          </p>
-          <!-- <div class="about-stats">
-            <div class="stat">
-              <span class="stat-number" data-count="5">0</span><span class="stat-label">Years Experience</span>
-            </div>
-            <div class="stat">
-              <span class="stat-number" data-count="30">0</span><span class="stat-label">Projects Completed</span>
-            </div>
-            <div class="stat">
-              <span class="stat-number" data-count="15">0</span><span class="stat-label">Happy Clients</span>
-            </div>
-          </div> -->
+  <main id="main">
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="hero">
+      <div class="container hero-content">
+        <p class="hero-greeting">👋 Hello, I'm</p>
+        <h1 class="hero-name">Sagarika Dangol</h1>
+        <p class="hero-title" id="typed-title">Accounting &amp; Financial Management Assistant</p>
+        <p class="hero-description">
+          Highly motivated professional with excellent interpersonal and communication skills, able to manage
+          multiple projects and responsibilities while maintaining a reputation for high-quality, robust work.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <a href="#experience" class="btn btn-outline">View My Work</a>
         </div>
       </div>
-    </div>
-  </section>
+      <a href="#about" class="hero-scroll-hint" aria-label="Scroll to About section">
+        <span class="scroll-arrow" aria-hidden="true"></span>
+      </a>
+    </section>
 
-  <!-- ===================== SKILLS ===================== -->
-  <section class="section section-alt" id="skills">
-    <div class="container">
-      <h2 class="section-title">Skills</h2>
-      <p class="section-subtitle">Technologies and Tools I work with</p>
-
-      <div class="skills-categories">
-        <!-- Frontend -->
-        <div class="skill-category">
-          <h3 class="skill-category-title">
-            <span class="skill-icon">🎨</span> Financial Tools
-          </h3>
-          <div class="skill-tags">
-            <span class="skill-tag" data-level="95">Tally</span>
-            <span class="skill-tag" data-level="90">Swastik Nepal</span>
-            <span class="skill-tag" data-level="90">Export</span>
-            <span class="skill-tag" data-level="85">Finpro</span>
-          </div>
-        </div>
-        <!-- Backend -->
-        <div class="skill-category">
-          <h3 class="skill-category-title">
-            <span class="skill-icon">⚙️</span> Technical Skills
-          </h3>
-          <div class="skill-tags">
-            <span class="skill-tag" data-level="85">Ms Word</span>
-            <span class="skill-tag" data-level="80">Ms Excel</span>
-            <span class="skill-tag" data-level="75">MS Access</span>
-            <span class="skill-tag" data-level="70">Ms PowerPoint</span>
-          </div>
-        </div>
-        <!-- Database & Tools -->
-        <div class="skill-category">
-          <h3 class="skill-category-title">
-            <span class="skill-icon">🗄️</span> Non-Technical Skills
-          </h3>
-          <div class="skill-tags">
-            <span class="skill-tag" data-level="80">Barista </span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== EXPERIENCE ===================== -->
-  <section class="section" id="experience">
-    <div class="container">
-      <h2 class="section-title">Work Experience</h2>
-      <p class="section-subtitle">My professional journey</p>
-
-      <div class="timeline">
-        <!-- Item 1 -->
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3 class="timeline-role">Accountant</h3>
-                <p class="timeline-company">RMC Group - Rajesh Metals PVT Ltd.</p>
-              </div>
-              <span class="timeline-date">2024 — Present</span>
-            </div>
-            <ul class="timeline-details">
-              <li>Managed financial records and prepared accurate reports.</li>
-              <li>Conducted audits and ensured compliance with accounting standards.</li>
-              <li>Collaborated with department heads to analyze financial data and provide insights.</li>
-            </ul>
-            <div class="timeline-tags">
-              <span>Accounting</span><span>Financial Reporting</span><span>Compliance</span>
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-image">
+            <div class="about-image-placeholder">
+              <img src="assets/img/my%20pic.png" alt="Portrait of Sagarika Dangol" width="1254" height="1254"
+                loading="lazy" decoding="async" />
             </div>
           </div>
-        </div>
-        <!-- Item 2 -->
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3 class="timeline-role">Account Executive</h3>
-                <p class="timeline-company">Chaudhary Group - Oil and Distribution PVT Ltd.</p>
-              </div>
-              <span class="timeline-date">2017 — 2021</span>
-            </div>
-            <ul class="timeline-details">
-              <li>Prepare Daily, Monthly & Yearly MIS Report.</li>
-              <li>Landed Cost Preparation & Posting in Account of Raw Materials.</li>
-              <li>Debtors & Creditors Balance Reconciliation with Balance confirmation.</li>
-              <li>Managed client relationships and provided excellent customer service.</li>
-              <li>Generated sales reports and analyzed market trends to identify growth opportunities.</li>
-            </ul>
-            <div class="timeline-tags">
-              <span>Sales</span><span>Customer Service</span><span>Reporting</span>
-            </div>
-          </div>
-        </div>
-        <!-- Item 3 -->
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <div>
-                <h3 class="timeline-role">Teacher</h3>
-                <p class="timeline-company">Brighter Academy</p>
-              </div>
-              <span class="timeline-date">2014 — 2016</span>
-            </div>
-            <ul class="timeline-details">
-              <li>Support students academically and personally.</li>
-              <li>Maintain a safe, respectful classroom.</li>
-              <li>Build character, discipline, and values.</li>
-              <li>Work closely with students, parents, and colleagues.</li>
-            </ul>
-            <div class="timeline-tags">
-              <span>Teaching</span><span>Student Development</span><span>Communication</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== EDUCATION ===================== -->
-  <section class="section section-alt" id="education">
-    <div class="container">
-      <h2 class="section-title">Education</h2>
-      <p class="section-subtitle">My academic background</p>
-
-      <div class="education-grid">
-        <!-- Card 1 -->
-        <div class="edu-card">
-          <div class="edu-icon">🎓</div>
-          <div class="edu-info">
-            <h3 class="edu-degree">Bachelor in Business Studies(BBS)</h3>
-            <p class="edu-school">Tribhuwan University.</p>
-            <span class="edu-year">2014 — 2020</span>
-            <p class="edu-description">
-              Graduated a Bachelor of Business Studies (BBS) from Tribhuvan University, with a strong foundation in
-              accounting, finance, management, marketing, and economics.
+          <div class="about-text">
+            <h3>A passionate assistant in accounting and financial management</h3>
+            <p>
+              I'm a dedicated accounting and financial management assistant with 5+ years of experience providing
+              comprehensive financial solutions. I specialize in creating robust, efficient and compliant financial
+              processes using modern tools and methodologies.
             </p>
-          </div>
-        </div>
-        <!-- Card 2 -->
-        <div class="edu-card">
-          <div class="edu-icon">📜</div>
-          <div class="edu-info">
-            <h3 class="edu-degree">Higher Secondary Education Board</h3>
-            <p class="edu-school">Shree Nepal Rastriya Secondary School.</p>
-            <span class="edu-year">2011 — 2013</span>
-            <p class="edu-description">
-              Graduated from Shree Nepal Rastriya Secondary School with a foundation in
-              business, accounting, communication, and management.
-            </p>
-          </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="edu-card">
-          <div class="edu-icon">🏅</div>
-          <div class="edu-info">
-            <h3 class="edu-degree">School Leaving Certificate</h3>
-            <p class="edu-school">Lotus Academy.</p>
-            <span class="edu-year">2001 — 2011</span>
-            <p class="edu-description">
-              Graduated with a strong foundation in core academic subjects and developed essential skills in critical thinking and problem-solving.
+            <p>
+              When I'm not working, you'll find me exploring new tools, sharpening my reporting skills, or enjoying a
+              good book. I believe in continuous learning and in keeping records clear, accurate and audit-ready.
             </p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===================== CONTACT ===================== -->
-  <section class="section" id="contact">
-    <div class="container contact-container">
-      <h2 class="section-title">Get In Touch</h2>
-      <p class="section-subtitle">Have a project in mind? Let's work together.</p>
-      <div class="contact-grid">
-        <form class="contact-form" id="contactForm">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your Name" required />
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="you@example.com" required />
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
-              required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
-        </form>
-        <div class="contact-info">
-          <div class="contact-item">
-            <span class="contact-icon">📧</span>
-            <div>
-              <h4>Email</h4>
-              <a href="mailto:sagarikadangol@gmail.com	">sagarikadangol@gmail.com </a>
+    <!-- ===================== SKILLS ===================== -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <p class="section-subtitle">Technologies and tools I work with</p>
+
+        <div class="skills-categories">
+          <!-- Financial tools -->
+          <div class="skill-category">
+            <h3 class="skill-category-title">
+              <span class="skill-icon" aria-hidden="true">🎨</span> Financial Tools
+            </h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Tally</span>
+              <span class="skill-tag">Swastik Nepal</span>
+              <span class="skill-tag">Export</span>
+              <span class="skill-tag">Finpro</span>
             </div>
           </div>
-          <div class="contact-item">
-            <span class="contact-icon">📍</span>
-            <div>
-              <h4>Location</h4>
-              <p>Jeetpursimara Sub-Metropolitian City 2, Bara, Nepal</p>
+          <!-- Technical -->
+          <div class="skill-category">
+            <h3 class="skill-category-title">
+              <span class="skill-icon" aria-hidden="true">⚙️</span> Technical Skills
+            </h3>
+            <div class="skill-tags">
+              <span class="skill-tag">MS Word</span>
+              <span class="skill-tag">MS Excel</span>
+              <span class="skill-tag">MS Access</span>
+              <span class="skill-tag">MS PowerPoint</span>
             </div>
           </div>
-          <div class="contact-item">
-            <span class="contact-icon">🔗</span>
-            <div>
-              <h4>Social</h4>
-              <div class="social-links">
-                <a href="https://www.facebook.com/sagrika.dan.gol" aria-label="Facebook">Facebook</a>
-                <a href="https://www.instagram.com/sagrikadangol/?hl=en" aria-label="Instagram">Instagram</a>
-                <a href="https://www.tiktok.com/@sagarika_7dangol2" aria-label="Tiktok">Tiktok</a>
+          <!-- Non-technical -->
+          <div class="skill-category">
+            <h3 class="skill-category-title">
+              <span class="skill-icon" aria-hidden="true">🗄️</span> Non-Technical Skills
+            </h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Barista</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section-title">Work Experience</h2>
+        <p class="section-subtitle">My professional journey</p>
+
+        <div class="timeline">
+          <!-- Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Accountant</h3>
+                  <p class="timeline-company">RMC Group — Rajesh Metals Pvt. Ltd.</p>
+                </div>
+                <span class="timeline-date">2024 — Present</span>
+              </div>
+              <ul class="timeline-details">
+                <li>Managed financial records and prepared accurate reports.</li>
+                <li>Conducted audits and ensured compliance with accounting standards.</li>
+                <li>Collaborated with department heads to analyze financial data and provide insights.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Accounting</span><span>Financial Reporting</span><span>Compliance</span>
+              </div>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Account Executive</h3>
+                  <p class="timeline-company">Chaudhary Group — Oil and Distribution Pvt. Ltd.</p>
+                </div>
+                <span class="timeline-date">2017 — 2021</span>
+              </div>
+              <ul class="timeline-details">
+                <li>Prepared daily, monthly and yearly MIS reports.</li>
+                <li>Handled landed-cost preparation and posting of raw materials in accounts.</li>
+                <li>Reconciled debtor and creditor balances with balance confirmations.</li>
+                <li>Managed client relationships and provided excellent customer service.</li>
+                <li>Generated sales reports and analyzed market trends to identify growth opportunities.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Sales</span><span>Customer Service</span><span>Reporting</span>
+              </div>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Teacher</h3>
+                  <p class="timeline-company">Brighter Academy</p>
+                </div>
+                <span class="timeline-date">2014 — 2016</span>
+              </div>
+              <ul class="timeline-details">
+                <li>Supported students academically and personally.</li>
+                <li>Maintained a safe, respectful classroom.</li>
+                <li>Built character, discipline and values.</li>
+                <li>Worked closely with students, parents and colleagues.</li>
+              </ul>
+              <div class="timeline-tags">
+                <span>Teaching</span><span>Student Development</span><span>Communication</span>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <p class="section-subtitle">My academic background</p>
+
+        <div class="education-grid">
+          <!-- Card 1 -->
+          <div class="edu-card">
+            <div class="edu-icon" aria-hidden="true">🎓</div>
+            <div class="edu-info">
+              <h3 class="edu-degree">Bachelor in Business Studies (BBS)</h3>
+              <p class="edu-school">Tribhuvan University</p>
+              <span class="edu-year">2014 — 2020</span>
+              <p class="edu-description">
+                Graduated with a Bachelor of Business Studies from Tribhuvan University, with a strong foundation in
+                accounting, finance, management, marketing and economics.
+              </p>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="edu-card">
+            <div class="edu-icon" aria-hidden="true">📜</div>
+            <div class="edu-info">
+              <h3 class="edu-degree">Higher Secondary Education Board</h3>
+              <p class="edu-school">Shree Nepal Rastriya Secondary School</p>
+              <span class="edu-year">2011 — 2013</span>
+              <p class="edu-description">
+                Completed higher secondary education with a foundation in business, accounting, communication and
+                management.
+              </p>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="edu-card">
+            <div class="edu-icon" aria-hidden="true">🏅</div>
+            <div class="edu-info">
+              <h3 class="edu-degree">School Leaving Certificate</h3>
+              <p class="edu-school">Lotus Academy</p>
+              <span class="edu-year">2001 — 2011</span>
+              <p class="edu-description">
+                Graduated with a strong foundation in core academic subjects and developed essential skills in critical
+                thinking and problem-solving.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section" id="contact">
+      <div class="container contact-container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Have a project in mind? Let's work together.</p>
+        <div class="contact-grid">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your Name" autocomplete="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email"
+                inputmode="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+
+          <div class="contact-info">
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">📧</span>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:sagarikadangol@gmail.com">sagarikadangol@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">📍</span>
+              <div>
+                <h4>Location</h4>
+                <p>Jeetpursimara Sub-Metropolitan City 2, Bara, Nepal</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">🔗</span>
+              <div>
+                <h4>Social</h4>
+                <div class="social-links">
+                  <a href="https://www.facebook.com/sagrika.dan.gol" target="_blank" rel="noopener noreferrer">Facebook</a>
+                  <a href="https://www.instagram.com/sagrikadangol/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                  <a href="https://www.tiktok.com/@sagarika_7dangol2" target="_blank" rel="noopener noreferrer">TikTok</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- ===================== FOOTER ===================== -->
   <footer class="footer">
@@ -320,7 +336,6 @@
       <div class="container footer-cta-inner">
         <div class="footer-cta-text">
           <h3>Let's build something amazing together</h3>
-          <!-- <p>I'm currently available for freelance work and full-time positions.</p> -->
         </div>
         <a href="#contact" class="btn btn-primary btn-glow">Hire Me →</a>
       </div>
@@ -331,31 +346,37 @@
       <div class="container footer-grid">
         <!-- Col 1: Brand -->
         <div class="footer-col footer-brand-col">
-          <a href="#" class="logo footer-logo">Portfolio - Sagrika Dangol</a>
-          <p class="footer-tagline">Crafting digital experiences with clean code &amp; creative design.</p>
+          <a href="#hero" class="logo footer-logo">Sagarika Dangol</a>
+          <p class="footer-tagline">Accurate books, clear reports and compliant financials — delivered on time.</p>
           <div class="footer-socials">
-            <a href="https://www.facebook.com/sagrika.dan.gol" aria-label="Facebook" class="social-circle">
-              <svg viewBox="0 0 24 24" fill="currentColor">
+            <a href="https://www.facebook.com/sagrika.dan.gol" target="_blank" rel="noopener noreferrer"
+              aria-label="Facebook" class="social-circle">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path
-                  d="M12 .5C5.37.5 0 5.78 0 12.29c0 5.21 3.43 9.64 8.2 11.21.6.11.82-.26.82-.57v-2.01c-3.34.72-4.04-1.61-4.04-1.61-.55-1.37-1.33-1.74-1.33-1.74-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6.02 0c2.3-1.55 3.3-1.23 3.3-1.23.66 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .31.22.69.82.57C20.57 21.93 24 17.5 24 12.29 24 5.78 18.63.5 12 .5z" />
+                  d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.09 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.69.24 2.69.24v2.97h-1.51c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.09 24 18.1 24 12.07z" />
               </svg>
             </a>
-            <a href="https://www.linkedin.com/in/sagrika-dangol-7b3b1b1b4/" aria-label="LinkedIn" class="social-circle">
-              <svg viewBox="0 0 24 24" fill="currentColor">
+            <a href="https://www.instagram.com/sagrikadangol/" target="_blank" rel="noopener noreferrer"
+              aria-label="Instagram" class="social-circle">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path
-                  d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+                  d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.3-1.46.71-2.13 1.38C1.34 2.68.93 3.35.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.3.79.71 1.46 1.38 2.13.67.67 1.34 1.08 2.13 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.3 1.46-.71 2.13-1.38.67-.67 1.08-1.34 1.38-2.13.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.3-.79-.71-1.46-1.38-2.13-.67-.67-1.34-1.08-2.13-1.38-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0z" />
+                <path d="M12 5.84a6.16 6.16 0 1 0 0 12.32 6.16 6.16 0 0 0 0-12.32zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8z" />
+                <circle cx="18.41" cy="5.59" r="1.44" />
               </svg>
             </a>
-            <a href="#" aria-label="Twitter / X" class="social-circle">
-              <svg viewBox="0 0 24 24" fill="currentColor">
+            <a href="https://www.tiktok.com/@sagarika_7dangol2" target="_blank" rel="noopener noreferrer"
+              aria-label="TikTok" class="social-circle">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path
-                  d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.4l-5.8-7.58-6.63 7.58H.48l8.6-9.83L0 1.15h7.59l5.24 6.93 6.07-6.93zm-1.29 19.5h2.04L6.48 3.24H4.3l13.31 17.41z" />
+                  d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5 2.59 2.59 0 0 1 0-5.18c.27 0 .52.04.76.12v-3.2a5.78 5.78 0 0 0-.76-.05 5.72 5.72 0 1 0 5.72 5.72V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3a4.3 4.3 0 0 1-3.28-1.48z" />
               </svg>
             </a>
-            <a href="#" aria-label="Dribbble" class="social-circle">
-              <svg viewBox="0 0 24 24" fill="currentColor">
-                <path
-                  d="M12 0C5.38 0 0 5.38 0 12s5.38 12 12 12 12-5.38 12-12S18.62 0 12 0zm7.94 5.54a10.2 10.2 0 0 1 2.3 6.38c-.34-.07-3.7-.75-7.1-.33-.07-.18-.15-.35-.23-.53-.22-.5-.46-1-.71-1.49 3.78-1.54 5.49-3.76 5.74-4.03zM12 1.77c2.76 0 5.28 1.07 7.17 2.82-.21.24-1.74 2.32-5.38 3.7A67.67 67.67 0 0 0 9.26 1.98 10.28 10.28 0 0 1 12 1.77zM7.35 2.7c.41.66 2.25 3.64 4.6 6.18-5.81 1.55-10.93 1.53-11.5 1.52A10.27 10.27 0 0 1 7.35 2.7zM1.76 12.01v-.39c.55.01 6.6.08 12.79-1.76.36.7.7 1.41 1.01 2.13l-.44.13c-6.42 2.07-9.83 7.73-10.1 8.18A10.2 10.2 0 0 1 1.76 12zm4.68 8.55c.18-.31 2.72-5.37 9.63-7.84.03-.01.05-.01.08-.02a44.16 44.16 0 0 1 2.56 9.12A10.23 10.23 0 0 1 12 22.23c-2.14 0-4.12-.66-5.76-1.78zm9.46.84a43.35 43.35 0 0 0-2.35-8.56c3.16-.5 5.93.32 6.29.43a10.22 10.22 0 0 1-3.94 8.13z" />
+            <a href="mailto:sagarikadangol@gmail.com" aria-label="Email" class="social-circle">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <path d="m22 7-10 6L2 7" />
               </svg>
             </a>
           </div>
@@ -376,17 +397,20 @@
         <!-- Col 3: Newsletter -->
         <div class="footer-col">
           <h4 class="footer-heading">Stay Updated</h4>
-          <p class="footer-newsletter-text">Subscribe to get my latest articles and project updates.</p>
+          <p class="footer-newsletter-text">Subscribe to get my latest updates.</p>
           <form class="footer-newsletter" id="newsletterForm">
-            <input type="email" placeholder="Your email" required aria-label="Email for newsletter" />
+            <label class="sr-only" for="newsletterEmail">Email address</label>
+            <input type="email" id="newsletterEmail" name="email" placeholder="Your email" autocomplete="email"
+              inputmode="email" required />
             <button type="submit" aria-label="Subscribe">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-                stroke-linejoin="round">
+                stroke-linejoin="round" aria-hidden="true">
                 <line x1="5" y1="12" x2="19" y2="12" />
                 <polyline points="12 5 19 12 12 19" />
               </svg>
             </button>
           </form>
+          <p class="form-status" id="newsletterStatus" role="status" aria-live="polite"></p>
         </div>
       </div>
     </div>
@@ -394,11 +418,11 @@
     <!-- Bottom Bar -->
     <div class="footer-bottom">
       <div class="container footer-bottom-inner">
-        <p>&copy; 2026 Sagarika Dangol. Built with ☕ &amp; code.</p>
+        <p>&copy; <span id="year">2026</span> Sagarika Dangol. Built with ☕ &amp; code.</p>
         <a href="#hero" class="back-to-top" aria-label="Back to top">
           <span class="btt-arrow">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
-              stroke-linejoin="round">
+              stroke-linejoin="round" aria-hidden="true">
               <polyline points="18 15 12 9 6 15" />
             </svg>
           </span>
@@ -407,7 +431,7 @@
     </div>
   </footer>
 
-  <script src="assets/js/script.js"></script>
+  <script src="assets/js/script.js" defer></script>
 </body>
 
 </html>
